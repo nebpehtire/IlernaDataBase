@@ -12,6 +12,13 @@ public class Alumno {
 
     public Alumno(){}
 
+    /**
+     * Constructor pasando parámetros
+     * @param nombre
+     * @param nacionalidad
+     * @param edad
+     * @param sexo
+     */
     public Alumno(String nombre, String nacionalidad, int edad, String sexo) {
         this.nombre = nombre;
         this.nacionalidad = nacionalidad;
@@ -19,6 +26,8 @@ public class Alumno {
         this.sexo = sexo;
     }
 
+
+    /** GETTER Y SETTERS, no hace falta comentarlos*/
     public int getId() {
         return id;
     }
@@ -67,6 +76,10 @@ public class Alumno {
         this.modulos = modulos;
     }
 
+
+    /**
+     * @return Json del listado de módulos
+     */
     public String modulosToJson(){
         String result = "";
         for (Modulo modulo : modulos)
@@ -77,6 +90,9 @@ public class Alumno {
 
     }
 
+    /**
+     * @return devuelve Alumno{ID=id, nombre=nombre, nacionalidad=nacionalidad, edad=edad, sexo= sexo"}
+     */
     @Override
     public String toString() {
         return "Alumno{" +

@@ -9,12 +9,19 @@ public class Profesor {
     public Profesor() {
     }
 
+    /**
+     * Constructor pasando parámetros nombre y sexo
+     * @param nombre
+     * @param sexo
+     */
     public Profesor(String nombre, String sexo)
     {
         this.nombre = nombre;
         this.sexo = sexo;
     }
 
+
+    /**  GETTERS y SETTERS, no importa comentarlos....         */
     public int getId() {
         return id;
     }
@@ -39,9 +46,13 @@ public class Profesor {
         this.sexo = sexo;
     }
 
+
+    /**
+     * @return devuelve Profesor{ID=id, nombre=nombre, sexo= sexo"}
+     */
     @Override
     public String toString() {
-        return "Alumno{" +
+        return "Profesor{" +
                 "ID=" + id +
                 ", nombre='" + nombre + '\'' +
                 ", sexo='" + sexo + '\'' +

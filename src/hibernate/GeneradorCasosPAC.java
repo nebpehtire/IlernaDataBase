@@ -15,27 +15,45 @@ public class GeneradorCasosPAC {
     }
 
 
+    /**
+     * @return un nombre de persona aleatorio
+     */
     public String getName(){
         int random = new Random().nextInt(nombres.length);
         return nombres[random];
     }
 
+    /**
+     * @return una nacionalidad aleatoria
+     */
     public String getNation()
     {
         int random = new Random().nextInt(nacionalidades.length);
         return nacionalidades[random];
     }
 
+
+    /**
+     * @return un género aleatorio  (no diferenciaremos por el nombre...)
+     */
     public  String getGendre(){
         int random = new Random().nextInt(sexos.length);
         return sexos[random];
     }
 
+
+    /**
+     * @return un nombre de asignatura aleatorio
+     */
     public String getModuleName(){
         int random = new Random().nextInt(nombresModulos.length);
         return nombresModulos[random];
     }
 
+
+    /**
+     * @return un código aleatorio entre M01 y M20
+     */
     public String getCodigo(){
         String resultado = "M";
         int random = new Random().nextInt(19) + 1;
@@ -51,8 +69,9 @@ public class GeneradorCasosPAC {
     }
 
 
-
-
+    /**
+     * Constructor de la clase necesario para ser utilizada
+     */
     public GeneradorCasosPAC(){}
 
 }

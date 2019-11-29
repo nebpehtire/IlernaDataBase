@@ -7,12 +7,20 @@ public class Modulo {
     String codigo;
 
     public Modulo(){}
+
+    /**
+     * Constructor pasando nombre y codigo
+     * @param nombre
+     * @param codigo
+     */
     public Modulo(String nombre, String codigo)
     {
         this.nombre = nombre;
         this.codigo = codigo;
     }
 
+
+    /** GETTER Y SETTER, no hacen falta comentar*/
     public int getId() {
         return id;
     }
@@ -37,9 +45,13 @@ public class Modulo {
         this.codigo = codigo;
     }
 
+
+    /**
+     * @return devuelve Modulo{ID=id, nombre=nombre, codigo= codigo"}
+     */
     @Override
     public String toString() {
-        return "Alumno{" +
+        return "Modulo{" +
                 "ID=" + id +
                 ", nombre='" + nombre + '\'' +
                 ", codigo='" + codigo + '\'' +

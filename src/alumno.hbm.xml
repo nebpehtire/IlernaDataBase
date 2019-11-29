@@ -13,7 +13,7 @@
         <property name="nacionalidad"></property>
         <property name="edad"></property>
         <property name="sexo"></property>
-        <!-- Se deja definido pero no se va más allá , al ser -->
+        <!-- Se deja definido pero no se va más allá -->
         <list name="modulos">
             <key></key>
             <list-index column="modulos"/>
