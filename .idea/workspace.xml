@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="474e9448-5306-42e0-a166-492001bca876" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/alumno.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/alumno.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modulo.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/profesor.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/profesor.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/Alumno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/GeneradorCasosPAC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/GeneradorCasosPAC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/HibernateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/HibernateMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/Modulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/Profesor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575041256950</updated>
       <workItem from="1575041259672" duration="9255000" />
-      <workItem from="1575055979410" duration="550000" />
+      <workItem from="1575055979410" duration="1478000" />
     </task>
     <servers />
   </component>
