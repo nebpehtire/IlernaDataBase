@@ -3,7 +3,9 @@
         "-//Hibernate/HibernateMappingDTD5.3//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="hibernate.Modulo" table="Modulos" catalog="u787976333_ilerna">
+    <class name="hibernate.Modulo" table="Modulos" catalog="M06">
+
+    <!--<class name="hibernate.Modulo" table="Modulos" catalog="u787976333_ilerna">-->
         <id name="id">
             <column name="id"/>
             <generator class="assigned"></generator>
