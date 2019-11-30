@@ -3,13 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="474e9448-5306-42e0-a166-492001bca876" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PAC_AD/alumno.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAC_AD/alumno.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PAC_AD/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAC_AD/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PAC_AD/hibernate/Alumno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAC_AD/hibernate/Alumno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PAC_AD/hibernate/GeneradorCasosPAC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAC_AD/hibernate/GeneradorCasosPAC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PAC_AD/hibernate/HibernateMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAC_AD/hibernate/HibernateMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PAC_AD/hibernate/Modulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAC_AD/hibernate/Modulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PAC_AD/hibernate/Profesor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAC_AD/hibernate/Profesor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PAC_AD/modulo.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAC_AD/modulo.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PAC_AD/profesor.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PAC_AD/profesor.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/alumno.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/alumno.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate/Alumno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/Alumno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate/GeneradorCasosPAC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/GeneradorCasosPAC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate/HibernateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/HibernateMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate/Modulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/Modulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hibernate/Profesor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/Profesor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modulo.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/modulo.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/profesor.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/profesor.hbm.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +60,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -104,7 +115,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575041256950</updated>
       <workItem from="1575041259672" duration="9255000" />
-      <workItem from="1575055979410" duration="1478000" />
+      <workItem from="1575055979410" duration="1590000" />
+      <workItem from="1575057862794" duration="3692000" />
     </task>
     <servers />
   </component>
@@ -128,10 +140,14 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575047947210" />
-    <state x="653" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1575052099748">
+    <state x="552" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575058712624">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="653" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1575052099748" />
+    <state x="552" y="346" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1575058712624" />
+    <state x="653" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1575058176989">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="653" y="227" key="#com.intellij.ide.util.MemberChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1575058176989" />
     <state x="713" y="331" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1575047889248">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -144,22 +160,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="643" y="459" key="Github.CreateGistDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575056080712" />
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1575055933477">
+    <state width="1638" height="341" key="GridCell.Tab.0.bottom" timestamp="1575105388431">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575055933477" />
-    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1575055933476">
+    <state width="1638" height="341" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1575105388431" />
+    <state width="1638" height="341" key="GridCell.Tab.0.center" timestamp="1575105388431">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575055933476" />
-    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1575055933476">
+    <state width="1638" height="341" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1575105388431" />
+    <state width="1638" height="341" key="GridCell.Tab.0.left" timestamp="1575105388430">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575055933476" />
-    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1575055933477">
+    <state width="1638" height="341" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1575105388430" />
+    <state width="1638" height="341" key="GridCell.Tab.0.right" timestamp="1575105388431">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575055933477" />
+    <state width="1638" height="341" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1575105388431" />
     <state width="239" height="457" key="HiddenNamespacesPopup" timestamp="1575043309008">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -168,10 +184,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1575043383159" />
-    <state x="517" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1575055979643">
+    <state x="517" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1575057863748">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="517" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575055979643" />
+    <state x="517" y="369" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1575057863748" />
     <state x="409" y="407" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575044821403">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

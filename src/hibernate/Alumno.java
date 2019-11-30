@@ -1,8 +1,9 @@
 package hibernate;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Alumno {
+public class Alumno implements Serializable {
     int id;
     String nombre;
     String nacionalidad;

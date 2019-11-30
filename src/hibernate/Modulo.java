@@ -1,6 +1,10 @@
 package hibernate;
 
-public class Modulo {
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.Serializable;
+
+public class Modulo implements Serializable {
 
     int id;
     String nombre;

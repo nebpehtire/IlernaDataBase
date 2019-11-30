@@ -5,12 +5,12 @@
 <hibernate-mapping>
     <class name="hibernate.Profesor" table="Profesores" catalog="M06">
 
-    <!--<class name="hibernate.Profesor" table="Profesores" catalog="u787976333_ilerna">-->
-        <id name="id">
-            <column name="id"/>
-            <generator class="assigned"></generator>
-        </id>
-        <property name="nombre"/>
-        <property name="sexo"/>
-    </class>
-</hibernate-mapping>
+        <!--<class name="hibernate.Profesor" table="Profesores" catalog="u787976333_ilerna"> TODO: para usar con bbdd externa   -->
+            <id name="id">
+                <column name="id"/>
+                <generator class="assigned"></generator>
+            </id>
+            <property name="nombre"/>
+            <property name="sexo"/>
+        </class>
+    </hibernate-mapping>

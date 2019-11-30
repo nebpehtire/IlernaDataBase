@@ -1,6 +1,8 @@
 package hibernate;
 
-public class Profesor {
+import java.io.Serializable;
+
+public class Profesor implements Serializable {
 
     int id;
     String nombre;

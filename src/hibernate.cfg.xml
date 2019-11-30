@@ -8,16 +8,16 @@
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
         <!-- la base de datos de prueba es un mysql q tengo externo
-        Se comenta para enviar a Ilerna-->
-        <!--
+        Se comenta para enviar a Ilerna
+
         <property name="connection.url">jdbc:mysql://46.17.175.1:3306/u787976333_ilerna?useSSL=false</property>
         <property name="connection.username">u787976333_ilerna</property>
-        <property name="connection.password">Ilerna2019</property>   -->
+        <property name="connection.password">Ilerna2019</property>-->
         
         <!-- datos para configuración para enviar al profesor  TODO: quitar comments antes de enviar
         se supone que corre sobre un mysql en local al cual hay que crear una base de datos... pero no tenemos el usuario real
-        será root root ???
-        -->
+        será root root ???-->
+
         <property name="connection.url">jdbc:mysql://localhost:3306/M06?useSSL=false</property>
         <property name="connection.username">emanuel</property>
         <property name="connection.password">familia</property>

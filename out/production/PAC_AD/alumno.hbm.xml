@@ -3,6 +3,7 @@
         "-//Hibernate/HibernateMappingDTD5.3//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
+    <!--<class name="hibernate.Alumno" table="Alumnos" catalog="M06">-->
     <class name="hibernate.Alumno" table="Alumnos" catalog="u787976333_ilerna">
         <id name="id">
             <column name="id"/>
@@ -12,7 +13,7 @@
         <property name="nacionalidad"></property>
         <property name="edad"></property>
         <property name="sexo"></property>
-        <!-- Se deja definido pero no se va más allá , al ser -->
+        <!-- Se deja definido pero no se va más allá -->
         <list name="modulos">
             <key></key>
             <list-index column="modulos"/>
